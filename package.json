@@ -3,10 +3,6 @@
   "version": "0.0.0",
   "description": "Testing circular devDependencies in Node",
   "main": "index.js",
-  "dependencies": {
-    "node-test-circular-devdependencies-1": "^0.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rsp/node-test-circular-devdependencies-2/issues"
   },
-  "homepage": "https://github.com/rsp/node-test-circular-devdependencies-2#readme"
+  "homepage": "https://github.com/rsp/node-test-circular-devdependencies-2#readme",
+  "devDependencies": {
+    "node-test-circular-devdependencies-1": "github:rsp/node-test-circular-devdependencies-1"
+  }
 }
