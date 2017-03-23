@@ -1,0 +1,23 @@
+{
+  "name": "node-test-circular-devdependencies-2",
+  "version": "0.0.0",
+  "description": "Testing circular devDependencies in Node",
+  "main": "index.js",
+  "dependencies": {
+    "node-test-circular-devdependencies-1": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsp/node-test-circular-devdependencies-2.git"
+  },
+  "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (https://pocztarski.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/node-test-circular-devdependencies-2/issues"
+  },
+  "homepage": "https://github.com/rsp/node-test-circular-devdependencies-2#readme"
+}
